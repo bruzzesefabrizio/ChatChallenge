@@ -10,8 +10,6 @@ namespace ChatChallenge.Models
     {
         public ChatContext() : base("MySqlConnection")
         {
-            //revisar
-            //Database.SetInitializer(new DropCreateDatabaseAlways<ChatContext>());
         }
 
         public static ChatContext Create()
